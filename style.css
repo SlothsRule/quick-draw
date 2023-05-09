@@ -1,0 +1,78 @@
+body {
+    font-family: cursive;
+        background-image:url(dino.jpg) ;
+    }
+    
+             
+    .btn-grad {
+        background-image: linear-gradient(to right, #f46b45 0%, #eea849  51%, #f46b45  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+    
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+      #show_sketch{
+        float: right;
+      }
+    
+    
+               
+      .btn-grad2 {
+        background-image: linear-gradient(to right, #FFAFBD 0%, #ffc3a0  51%, #FFAFBD  100%);
+        
+        padding: 10px 10px;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+    
+      .btn-grad2:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+    p{
+        font-size: 22px;
+    }
+    
+    
+    canvas{
+        margin-top: 100px;
+        border-radius:25px;
+        border:5px solid white;
+        animation-name: emilia;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes emilia {
+    
+        from{box-shadow: 15px 15px 15px rgb(255, 0, 0);}
+        50%{box-shadow: -15px -15px 15px rgb(75, 72, 121);}
+        75%{box-shadow: 15px 15px 15px rgb(3, 121, 18);}
+        to{box-shadow: -15px -15px 15px rgb(207, 219, 36);}
+    }
+
+
+
+
